@@ -2,9 +2,6 @@ var katzDeliLine = [];
 
 // katzDeliLine is the list of all the people.  will need to count
 
-// var numberInLine = (katzDeli.length + 1)
-
-
 // takeANumber will add the new person to the end of katzDeliLine array
 // it will also count the length of the katzDeliLine array in order to return their place in line
 function takeANumber(katzDeliLine, newPerson) {
