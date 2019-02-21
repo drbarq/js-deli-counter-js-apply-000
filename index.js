@@ -1,5 +1,5 @@
 var katzDeliLine = [];
-
+var historyLine = 0
 // katzDeliLine is the list of all the people.  will need to count
 
 // takeANumber will add the new person to the end of katzDeliLine array
@@ -7,7 +7,8 @@ var katzDeliLine = [];
 function takeANumber(katzDeliLine, newPerson) {
   var numberInLine = (katzDeliLine.length)
   katzDeliLine.push(newPerson);
-  return "Welcome, " + newPerson + ". You are number " + (numberInLine + 1) + " in line."
+  historyLine++ 
+  return "Welcome, " + newPerson + ". You are number " + historyLine + " in line."
 }
 
 // nowServing will first check if katzDeliLine is empty, if true will return the string.
@@ -22,7 +23,10 @@ function nowServing(katzDeliLine) {
   }
 }
 
-
+function numberHistory() {
+  historyLine++ 
+  
+}
 
 
 
