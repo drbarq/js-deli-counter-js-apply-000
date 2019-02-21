@@ -48,6 +48,7 @@ function currentLine(katzDeliLine) {
   for (var i = 0; i < numberInLine; i++) {
       currentLine.push(` ${i+1}. ${katzDeliLine[i]}`)
     console.log(currentLine)
+    console.log(numberHistory)
       }
   return "The line is currently:" + currentLine
 }
