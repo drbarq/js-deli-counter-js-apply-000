@@ -7,7 +7,7 @@ var historyLine = 0
 function takeANumber(katzDeliLine, newPerson) {
   var numberInLine = (katzDeliLine.length)
   katzDeliLine.push(newPerson);
-  historyLine++ 
+  historyLine++
   return "Welcome, " + newPerson + ". You are number " + historyLine + " in line."
 }
 
@@ -24,8 +24,8 @@ function nowServing(katzDeliLine) {
 }
 
 function numberHistory() {
-  historyLine++ 
-  
+  historyLine++
+
 }
 
 
