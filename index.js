@@ -23,12 +23,13 @@ function nowServing(katzDeliLine) {
   }
 }
 
+
+/*
 function numberHistory() {
   historyLine++
 
 }
-
-
+*/
 
 // currentLine will tell the person where they are inline.
 // It should create an object key value pair for each person and place in line
